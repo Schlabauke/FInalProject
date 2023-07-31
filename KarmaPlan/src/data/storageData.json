@@ -1,0 +1,46 @@
+ {
+    "user": [
+        {
+            "username": "Annabelle",
+            "tasks": [
+                {
+                    "description":"cleaning kitchen",
+                    "counter": 0
+                },
+                {
+                    "description":"cooking",
+                    "counter": 0
+                },
+                {
+                    "description":"walking the dog",
+                    "counter": 0
+                },
+                {
+                    "description":"take out trash",
+                    "counter": 0
+                }
+            ]
+        },
+        {
+            "username": "Gundiberth",
+            "tasks": [
+                {
+                    "description":"cleaning kitchen",
+                    "counter": 0
+                },
+                {
+                    "description":"cooking",
+                    "counter": 0
+                },
+                {
+                    "description":"walking the dog",
+                    "counter": 0
+                },
+                {
+                    "description":"take out trash",
+                    "counter": 0
+                }
+            ]
+        }
+    ]
+}

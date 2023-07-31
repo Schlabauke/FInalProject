@@ -1,3 +1,3 @@
 <template>
-    <p>Household cooming up here </p>
+    <p>Household coming up here </p>
 </template>

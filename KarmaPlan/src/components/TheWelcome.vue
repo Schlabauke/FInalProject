@@ -15,6 +15,16 @@
 
  <article>
   <p>Please Log In or register, if this is your first time around!</p>
+  <p>Don't use any real email or password-info. This is a Proof of Concept! </p>
+    <p>Right now, this is not supposed to be used in real life.</p>
+    <p>To Login you can use this credentials: 
+    <ul>
+        <li>Username: </li>
+        <li>Password:</li>
+    </ul>
+     I filled the App with some demo-data from our personal pen&paper KarmaPlan. 
+    Feel free to add some more data or just playing around a little bit. 
+  </p>
  </article>
  
 

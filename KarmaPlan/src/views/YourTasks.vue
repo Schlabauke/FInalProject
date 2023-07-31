@@ -1,3 +1,4 @@
 <template>
-    <p>Your Tasks cooming up here </p>
+    <p>Your Tasks coming up here </p>
+    <AddTask></AddTask>
 </template>

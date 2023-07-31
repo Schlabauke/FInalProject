@@ -1,7 +1,8 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import addTask from './components/addTask.vue';
+
 import Nav from './components/Nav.vue'
+import Footer from './components/Footer.vue';
 
 </script>
 
@@ -10,13 +11,8 @@ import Nav from './components/Nav.vue'
       <Nav/>
   </header>
   <main>
-    <addTask />
       <RouterView /> 
   </main>
-  
- 
+ <Footer/>
 </template>
 
-<style scoped>
-
-</style>

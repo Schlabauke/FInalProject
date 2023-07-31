@@ -3,36 +3,30 @@ import { RouterLink, RouterView } from 'vue-router'
   </script>
   <template>
     <nav>
-      <article>
-        <RouterLink className="logo" to="/">
-          KarmaPlan
+        <RouterLink class="link" to="/">
+          <h1 class="logo">KarmaPlan</h1>
         </RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </article>
       
       <article>
         <!-- TODO: You can only see this, whenn you're logged in -->
-        <RouterLink to="/tasks">Your tasks</RouterLink>
-        <RouterLink to="/household">Your household</RouterLink>
+        <RouterLink to="/tasks" class="link" >Your tasks</RouterLink>
+        <RouterLink to="/household" class="link">Your household</RouterLink>
       </article>
 
-      <article>
+      <article class="lastArticle">
         <!-- ToDO: toggle function with LogIn -->
-        <RouterLink to="/login">Log In</RouterLink>
+        <RouterLink to="/login" class="light-btn">Login</RouterLink>
         <RouterLink
         onClick={logoutFunction}
-        className="register-btn"
+        class="light-btn"
         to="/login"
         >
         Logout
       </RouterLink>
-      <RouterLink className="register-btn" to="/register">
+      <RouterLink class="light-btn" to="/register">
         Register
       </RouterLink>
     </article>
   </nav>
 </template>
 
-<style scoped>
-
-</style>
